@@ -1,0 +1,33 @@
+.banner{
+    
+   
+   }
+
+.banner_info{
+    color:black;
+    padding: 5.5rem 3rem ;
+    background: url('http://www.fotooboi.ru/upload/resize_cache/iblock/a2e/2000_565_1d7a58ff99b324185ccb5ad5dfbdb5e85/a2efc5ddb37c5c37181b43d428f68d78.jpg') ;
+    height: 40vh;
+    position: relative;
+    border-radius: 4% ;
+}
+
+.banner_info > button{
+   background-color: #ff5a60;
+   margin: 1%;
+}
+
+.banner_info > button:hover{
+   background-color:white;
+   
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchButton{
+    background-color:white!important;
+    margin: 1rem 0 !important;
+    color:#ff5a60!important; 
+}

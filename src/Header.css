@@ -1,42 +1,43 @@
 .header{
-    border-bottom: 1px solid lightgrey;
     display: flex;
-    justify-content: space-between;
+	-webkit-flex-direction: row;
+	flex-direction: row;  
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
     position: sticky;
-    width: 100vw;
     z-index: 100;
-    top: 0;
-    background-color:whitesmoke;
-    flex-direction: row;
+    
 }
 .header_icon{
-   
-    object-fit: cover;
-    height: 6rem;
-    padding: 1rem 1rem;
+   object-fit: contain;
+    display: flex;
+    width: 9rem;
 }
 
 .header_center {
     display: flex;
-    text-align: center;
-    max-width: fit-content;
-    margin-top: 2rem;
-    height: 2rem;
-    border: 1px solid grey;
-    padding: 1rem;
+    flex: 1;
+    max-width: 30rem;
+    align-items: center;
+    border: 1px solid lightgrey;
     border-radius: 99px;
-    
-    width: 300px;
+    padding: 0.7rem;
 }
 
 .header_center > input{
-   border: none;
-   width: 600px;
-   
+    border: none;
+    width: 100%;
+    padding: 0.7rem;
+    outline-width: 0;
 }
 
 .header_right{
-    padding: 1rem 2rem;
+    flex: 0.1;
     display: flex;
-    align-items: center; 
+    justify-content: space-between;
 }
+
+  

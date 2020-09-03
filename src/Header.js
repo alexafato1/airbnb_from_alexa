@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './img/logo.png';
+
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
@@ -10,7 +10,7 @@ function Header() {
     return (
         <div className='header'>
             <img className='header_icon'
-               src={logo}
+               src='https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg'
                alt='img'
               />
             <div className='header_center'>

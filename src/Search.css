@@ -1,0 +1,37 @@
+.search{
+    position: absolute;
+    overflow-x: scroll;
+    top: 11rem;
+    z-index: 200;
+    left:2%;
+    width: 85vw;
+    
+    background-color: white;
+    padding: 1rem;;
+}
+
+.search >h3{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.search >input{
+    width: 93%;
+    margin:1rem;
+    border: none;
+}
+
+.search >button{
+    width: 100%;
+    background-color: #ff5a60;
+    margin:0!important;
+    color: white;
+    
+}
+
+.search >button:hover{
+    background-color: white;
+    color: #ff5a60;
+}
